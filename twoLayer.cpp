@@ -25,24 +25,32 @@ int main(){
   	cin >> T[i];
 
   	for(int p=0;p<k+1;p++){
-  		if(!m==3){
-  		U[i][p] = ((rand()%20)/10)-1;
-     	}else{
-     	cin >> U[i][p];
-     	}
   		A[i][p] = 0;
   	}
   	A[i][k] = -1;
   }
   //Where the algorithm starts
-
-  for(int i=0;i<k;i++){
-  	for(int j=0;j<m+1;j++){
-  		if(m!=3)
-  		W[i][j] = ((rand()%20)/10)-1;
- 		else
- 		cin >> W[i][j];
-  	}
+    //Initialize weights to random values for both layers
+  for(int node=0;node<n;node++){
+     for(int i=0;i<k+1;i++){
+         //Weight fot the second layer
+        if(!m==3){
+          U[node][i] = ((rand()%20)/10)-1;
+        }else{
+          cin >> U[node][i];
+          cout << U[node][i] << endl;
+        }
+       if(node==0 && i!=k){
+        //Weight for the first layer
+        for(int j=0;j<m+1;j++){
+          if(m!=3)
+          W[i][j] = ((rand()%20)/10)-1;
+          else
+          cin >> W[i][j];
+          cout << W[i][j] << endl;
+        }
+       }
+     }
   }
 
   //Calculate the matrix a
