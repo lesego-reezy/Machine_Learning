@@ -6,6 +6,16 @@
 using namespace std;
 
 int main(){
+  /*Takes in the number of X vectors as d
+   *The number of inputs or elements of X as m
+   *The number of nodes for the hidden layer as k
+   *The number of outputs Y as n
+   *
+   *Read when everything manually, first give a list vectors X
+   * followed by the U weights 
+   * then the W weights
+   */
+
 	int d,m,k,n;
 	cin >> d >> m >> k >> n;
 
@@ -31,26 +41,21 @@ int main(){
   }
   //Where the algorithm starts
     //Initialize weights to random values for both layers
-  for(int node=0;node<n;node++){
+  for(int out=0;out<n;out++){
      for(int i=0;i<k+1;i++){
          //Weight fot the second layer
-        if(!m==3){
-          U[node][i] = ((rand()%20)/10)-1;
-        }else{
-          cin >> U[node][i];
-          cout << U[node][i] << endl;
-        }
-       if(node==0 && i!=k){
+          // U[out][i] = ((rand()%20)/10)-1;
+          //for testing
+          cin >> U[out][i];
+     }
+  }
+  for(int node=0;node<k;node++){  
         //Weight for the first layer
         for(int j=0;j<m+1;j++){
-          if(m!=3)
-          W[i][j] = ((rand()%20)/10)-1;
-          else
-          cin >> W[i][j];
-          cout << W[i][j] << endl;
+          // W[node][j] = ((rand()%20)/10)-1;
+            //for testing
+          cin >> W[node][j];
         }
-       }
-     }
   }
 
   //Calculate the matrix a
@@ -58,7 +63,7 @@ int main(){
   	for(int j=0;j<k;j++){
   		for(int l=0;l<m+1;l++){
   			A[i][j] += W[j][l]*X[i][l];
-  			cout << "(" << W[j][l] << ")" << "(" << X[i][l] << ")";
+  			cout << W[j][l] << "*" << X[i][l] ;
   			if(l!=m)
   				cout << "+";
   		}
@@ -68,16 +73,19 @@ int main(){
   		cout << " => " << A[i][j] <<endl;
   	}
   }
+  cout << endl;
   //Now the final part
-  for(int i=0;i<n;i++){
+  for(int input =0;input<d;input++){
+   for(int i=0;i<n;i++){
   	sum=0;
   	for(int j=0;j<k+1;j++){
-  		sum+=U[i][j]*A[i][j];
-  		cout << "(" << U[i][j] << ")" << "(" << A[i][j] << ")";
+  		sum+=U[i][j]*A[input][j];
+  		cout << "(" << U[i][j] << ")" << "(" << A[input][j] << ")";
   			if(j!=k)
   			 cout << "+";
   	}
    Y[i] = 1/(1+exp(-sum));
    cout << " = " << sum << " => Y = " << Y[i] << endl;
   }
+}
 }
