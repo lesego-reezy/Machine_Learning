@@ -1,0 +1,432 @@
+Please input the number of inputs, datapoint, nodes, and outputs
+in the form: 
+d m k n
+where d=inputs,m = datapoints, k = nodes,and n = outputs
+Number of nodes = 2
+Output for Input 1:
+		Weights
+	Node: 0
+-0.2, -0.1-0.2
+	Node: 1
+0.2, -0.80
+	Error = 0.392571
+Output for Input 2:
+		Weights
+	Node: 0
+-0.7, -0.20.6
+	Node: 1
+0.1, -0.9-0.4
+	Error = 0.233902
+Output for Input 3:
+		Weights
+	Node: 0
+0.3, 0.50.1
+	Node: 1
+0.6, -0.4-0.6
+	Error = 0.271673
+Output for Input 4:
+		Weights
+	Node: 0
+-1, 0.9-0.2
+	Node: 1
+0.6, -0.70
+	Error = 0.11681
+Output for Input 5:
+		Weights
+	Node: 0
+0.1, -0.9-0.7
+	Node: 1
+-0.3, -0.80.5
+	Error = 0.260426
+Output for Input 6:
+		Weights
+	Node: 0
+-0.1, -1-1
+	Node: 1
+0.4, -0.7-0.3
+	Error = 0.44232
+Output for Input 7:
+		Weights
+	Node: 0
+-0.4, -0.7-0.7
+	Node: 1
+-0.5, -0.50.1
+	Error = 0.291532
+Output for Input 8:
+		Weights
+	Node: 0
+0.4, 0.3-0.4
+	Node: 1
+0.4, 0.8-1
+	Error = 0.188291
+Output for Input 9:
+		Weights
+	Node: 0
+0, -0.20.3
+	Node: 1
+0.3, -0.1-0.7
+	Error = 0.243223
+Output for Input 10:
+		Weights
+	Node: 0
+-1, -0.20.6
+	Node: 1
+0, -10.9
+	Error = 0.155663
+Output for Input 11:
+		Weights
+	Node: 0
+0.2, -0.70.3
+	Node: 1
+0.1, 0.6-0.8
+	Error = 0.0891767
+Output for Input 12:
+		Weights
+	Node: 0
+-0.1, 0.1-0.6
+	Node: 1
+-0.7, -0.3-0.3
+	Error = 0.17147
+Output for Input 13:
+		Weights
+	Node: 0
+0.9, 0.20.6
+	Node: 1
+-0.9, -0.1-0.7
+	Error = 0.11654
+Output for Input 14:
+		Weights
+	Node: 0
+0.2, 0.80.8
+	Node: 1
+0, -0.90.6
+	Error = 0.336087
+Output for Input 15:
+		Weights
+	Node: 0
+-0.4, 0.50.3
+	Node: 1
+-0.6, 0.2-0.4
+	Error = 0.301144
+Output for Input 16:
+		Weights
+	Node: 0
+0.5, 0-0.8
+	Node: 1
+-0.2, -0.30.5
+	Error = 0.379201
+Output for Input 17:
+		Weights
+	Node: 0
+0.2, 0.1-0.7
+	Node: 1
+-0.9, 0.8-0.8
+	Error = 0.244168
+Output for Input 18:
+		Weights
+	Node: 0
+-0.4, -0.7-0.8
+	Node: 1
+0.6, 0.20.6
+	Error = 0.17169
+Output for Input 19:
+		Weights
+	Node: 0
+0.6, -0.4-0.8
+	Node: 1
+-0.4, -0.7-0.1
+	Error = 0.201301
+Output for Input 20:
+		Weights
+	Node: 0
+0.7, -0.10
+	Node: 1
+0.5, -0.9-1
+	Error = 0.141524
+Output for Input 21:
+		Weights
+	Node: 0
+-0.7, -0.60.8
+	Node: 1
+0, -0.8-0.1
+	Error = 0.172719
+Output for Input 22:
+		Weights
+	Node: 0
+0.6, 00.5
+	Node: 1
+-1, -0.3-1
+	Error = 0.17953
+Output for Input 23:
+		Weights
+	Node: 0
+0.2, 0.80.2
+	Node: 1
+-0.5, 0.3-1
+	Error = 0.223094
+Output for Input 24:
+		Weights
+	Node: 0
+0.7, 0.2-1
+	Node: 1
+0.2, 0.30
+	Error = 0.157852
+Output for Input 25:
+		Weights
+	Node: 0
+-0.7, -0.10.2
+	Node: 1
+-0.1, -0.30.8
+	Error = 0.127619
+Output for Input 26:
+		Weights
+	Node: 0
+0.7, 0.90.8
+	Node: 1
+-1, -0.8-0.6
+	Error = 0.369402
+Output for Input 27:
+		Weights
+	Node: 0
+-0.9, 0.2-0.7
+	Node: 1
+0.3, -0.8-0.8
+	Error = 0.260308
+Output for Input 28:
+		Weights
+	Node: 0
+-0.6, -0.7-0.8
+	Node: 1
+-0.9, 0.10.3
+	Error = 0.185135
+Output for Input 29:
+		Weights
+	Node: 0
+-0.8, -10.3
+	Node: 1
+-0.4, -0.90.9
+	Error = 0.262395
+Output for Input 30:
+		Weights
+	Node: 0
+-0.3, 0.8-0.1
+	Node: 1
+-0.8, 0.40.1
+	Error = 0.234951
+Output for Input 31:
+		Weights
+	Node: 0
+-0.4, -0.70.6
+	Node: 1
+0.1, -0.10.4
+	Error = 0.0767241
+Output for Input 32:
+		Weights
+	Node: 0
+0.1, -0.60.7
+	Node: 1
+0.4, 0.5-0.4
+	Error = 0.095013
+Output for Input 33:
+		Weights
+	Node: 0
+-0.8, 0.9-0.4
+	Node: 1
+0.7, 0.70
+	Error = 0.299647
+Output for Input 34:
+		Weights
+	Node: 0
+-0.5, -0.8-1
+	Node: 1
+0.7, -0.80.6
+	Error = 0.260227
+Output for Input 35:
+		Weights
+	Node: 0
+0.7, -0.9-1
+	Node: 1
+0.6, -0.50.6
+	Error = 0.278901
+Output for Input 36:
+		Weights
+	Node: 0
+-0.2, 0.10.2
+	Node: 1
+0.5, 0.5-0.5
+	Error = 0.336281
+Output for Input 37:
+		Weights
+	Node: 0
+-0.1, 0.30.7
+	Node: 1
+0.9, 0.2-0.1
+	Error = 0.339097
+Output for Input 38:
+		Weights
+	Node: 0
+0.4, -0.90.9
+	Node: 1
+-0.7, -0.70.8
+	Error = 0.339038
+Output for Input 39:
+		Weights
+	Node: 0
+0.8, 0.3-0.9
+	Node: 1
+-0.6, 00.3
+	Error = 0.306776
+Output for Input 40:
+		Weights
+	Node: 0
+0.8, -0.9-0.7
+	Node: 1
+-0.9, 0.40
+	Error = 0.0892594
+Output for Input 41:
+		Weights
+	Node: 0
+-0.9, -0.9-0.8
+	Node: 1
+0.5, -0.8-0.8
+	Error = 0.181085
+Output for Input 42:
+		Weights
+	Node: 0
+-0.3, 0.6-0.5
+	Node: 1
+-0.6, 0.1-0.2
+	Error = 0.034465
+Output for Input 43:
+		Weights
+	Node: 0
+0.4, 0.3-0.8
+	Node: 1
+-0.4, -0.1-0.8
+	Error = 0.0808821
+Output for Input 44:
+		Weights
+	Node: 0
+0.6, -0.70.7
+	Node: 1
+0.4, -0.20.1
+	Error = 0.308843
+Output for Input 45:
+		Weights
+	Node: 0
+-0.7, 0.20.4
+	Node: 1
+0.6, -0.2-0.5
+	Error = 0.287446
+Output for Input 46:
+		Weights
+	Node: 0
+-1, -0.90.8
+	Node: 1
+-0.4, 0.9-0.3
+	Error = 0.202962
+Output for Input 47:
+		Weights
+	Node: 0
+0.7, -0.2-0.1
+	Node: 1
+0.4, -0.70.6
+	Error = 0.19749
+Output for Input 48:
+		Weights
+	Node: 0
+0.4, 0.7-1
+	Node: 1
+-0.6, -0.90.1
+	Error = 0.23011
+Output for Input 49:
+		Weights
+	Node: 0
+-0.3, 00
+	Node: 1
+-1, 0.2-0.8
+	Error = 0.315706
+Output for Input 50:
+		Weights
+	Node: 0
+0.6, -0.5-0.5
+	Node: 1
+0.7, -0.6-0.6
+	Error = 0.139037
+Output for Input 51:
+		Weights
+	Node: 0
+0.3, -0.50.3
+	Node: 1
+0.2, -0.40.4
+	Error = 0.0775307
+Output for Input 52:
+		Weights
+	Node: 0
+0.6, -0.10.3
+	Node: 1
+0.7, -0.40.2
+	Error = 0.115121
+Output for Input 53:
+		Weights
+	Node: 0
+0.5, 0.70.3
+	Node: 1
+-0.5, -0.60.7
+	Error = 0.143808
+Output for Input 54:
+		Weights
+	Node: 0
+-0.6, -0.2-0.5
+	Node: 1
+0.2, -0.7-0.3
+	Error = 0.302894
+Output for Input 55:
+		Weights
+	Node: 0
+0.5, -0.9-0.9
+	Node: 1
+0.6, -0.70.1
+	Error = 0.229075
+Output for Input 56:
+		Weights
+	Node: 0
+-0.7, -0.3-0.5
+	Node: 1
+0.3, -0.5-0.5
+	Error = 0.081775
+Output for Input 57:
+		Weights
+	Node: 0
+0.2, 0.5-0.6
+	Node: 1
+-0.8, -0.80.3
+	Error = 0.137156
+Output for Input 58:
+		Weights
+	Node: 0
+-0.1, -0.1-0.6
+	Node: 1
+0.3, -0.2-0.5
+	Error = 0.0929553
+Output for Input 59:
+		Weights
+	Node: 0
+-0.7, 0.1-0.8
+	Node: 1
+-0.5, -0.80.4
+	Error = 0.322382
+Output for Input 60:
+		Weights
+	Node: 0
+-0.5, 0.6-0.1
+	Node: 1
+-0.4, -0.2-1
+	Error = 0.159634
+Output for Input 61:
+		Weights
+	Node: 0
+-0.5, 0.80.8
+	Node: 1
+-0.1, -0.30.1
+	Error = 0.333272
